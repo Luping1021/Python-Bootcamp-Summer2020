@@ -1,7 +1,7 @@
 #Programming Challenge 1-Temperature convertor
 #1. Converts user input from degree Fahrenheit to Celsius
 #2. Converts user input from degrees Fahrenheit to Kelvin
-
+'''
 user_input = int(input("Enter a temperature in degree F: "))
 user_selection = int(input("Pick a option: "))
 
@@ -14,23 +14,23 @@ elif user_selection == 2:
 else:
     print("Wrong Choice, please restart")
 print("Conversion finished")
-
+'''
 
 #Programming Challenge 2-Voltage division
-
+'''
 input_voltage = int(input("Enter an V_in: "))
 resistor_1 = int(input("Enter an R_1: "))
 resistor_2 = int(input("Enter an R_2: "))
 output_voltage = (resistor_2 / (resistor_1 + resistor_2)) * input_voltage
 print(f"V_out is {output_voltage} when V_in is {input_voltage}, R_1 is {resistor_1}, and R_2 is {resistor_2}")
-
+'''
 
 #Programming Challenge 3-3&7 Fizz-Buzz
 #write a loop from 1 to N
 #"Fizz"-a number is divisible by 3 but NOT divisible by 7
 #"Buzz"-a number is divisible by 7 NOT 3
 #"FizzBuzz"-a number is both divisible by 3 and 7
-
+'''
 N = int(input("Enter a number: "))
 for i in range (1, N+1):
     if i % 3 == 0 and i % 7 != 0:
@@ -41,7 +41,7 @@ for i in range (1, N+1):
         print("FizzBuzz")
     else:
         print(i)
-
+'''
 
 #Programming Challenge 4-Kiosk machine at McBurger Queen
 #Menu option-
@@ -59,7 +59,7 @@ for i in range (1, N+1):
     #6. Family Deal-$19.99
     #7. Finish ordering
     #sales tax is 8.875%
-
+'''
 print("Welcome to McBurger Queen!")
 subtotal = 0
 while True:
@@ -114,7 +114,7 @@ sales_tax = 0.08875*subtotal
 print(f"Your taxes is:${sales_tax}")
 total = subtotal + sales_tax
 print(f"Your total is:${total}")
-
+'''
 
 #Programming Challenge 5-Day of the Programmer
 #range from 1700 -2700 inclusive, 256th day -day of the programmer
