@@ -123,7 +123,7 @@ print(f"Your total is:${total}")
 #other years-09.13
 
 user_input = int(input("Enter a year: "))
-if user_input > 1700 and user_input < 2700:
+if user_input >= 1700 and user_input <= 2700:
     if user_input == 1918:
         print(f"In {user_input}, the day of the programmer is 09.26")
     elif user_input % 400 == 0:
