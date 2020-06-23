@@ -121,7 +121,7 @@ print(f"Your total is:${total}")
 #1918-09.26
 #leap year-09.12
 #other years-09.13
-
+'''
 user_input = int(input("Enter a year: "))
 if user_input >= 1700 and user_input <= 2700:
     if user_input == 1918:
@@ -134,6 +134,6 @@ if user_input >= 1700 and user_input <= 2700:
         print(f"In {user_input}, the day of the programmer is 09.13")
 else:
     print("Invalid year. Pick anther year that is between 1700 to 2700.")
-
+'''
 
 
